@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.products_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15vh;
+}
+
+.products_grid img {
+  width: 300px;
+  height: 200px;
+}
+
+.products_grid input {
+  color: white;
+  background-color: palevioletred;
+  border: none;
+  padding: 1vh 5vw;
+  border-radius: 15px;
+}
+
+.products_grid a {
+  color: white;
+  background-color: palevioletred;
+  padding: 1vh 5vw;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/* Hallo */
